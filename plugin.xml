@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="com.venkat.plugins.notification"
+	version="2.2.0"
+	onLoad="true" >
+
+	<name>Venkat</name>
+	<author>Venka Tesh G</author>
+
+	<platform name="android">
+		<resource-file src="www/wuicon.png" target="res/drawable/wuicon.png" />
+		<resource-file src="www/wuicon.png" target="res/drawable-ldpi/wuicon.png" />
+		<resource-file src="www/wuicon.png" target="res/drawable-mdpi/wuicon.png" />
+		<resource-file src="www/wuicon.png" target="res/drawable-hdpi/wuicon.png" />
+		<resource-file src="www/wuicon.png" target="res/drawable-xhdpi/wuicon.png" />
+		<resource-file src="www/wuicon.png" target="res/drawable-xxhdpi/wuicon.png" />
+		<resource-file src="www/wuicon.png" target="res/drawable-xxxhdpi/wuicon.png" /> 
+	</platform>
+</plugin>
